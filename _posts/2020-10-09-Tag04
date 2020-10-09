@@ -1,0 +1,64 @@
+---
+title: Tag 04 - 
+author: jäger
+date: 2020-10-02
+---
+
+Unterschiede zwischen wiss. und öff. Bibliothekssoftware
+
+    Traditionell gibt es große Unterschiede zwischen wissenschaftlichen und öffentlichen Bibliotheken (darunter Schulbibliotheken)
+    Bibliotheksmanagementsoftware für öffentliche Bibliotheken enthält oft Module für Veranstaltungsmanagement oder Content-Management (Webseiten), legt Schwerpunkte auf optischer Darstellung (Buchcover, Themenschwerpunkte) und bindet Plattformen für E-Books und Hörbücher ein.
+    Bibliotheksmanagementsoftware für wissenschaftliche Bibliotheken legt Schwerpunkte auf Erschließung, E-Ressourcen-Management (elektronische Zeitschriften) und komplexe Geschäftsgänge
+
+Lerntagebuch peer reviewen? NEIN
+
+Metastandards in Archiven ISAD(G) und EAD
+
+ISAD(G)
+    Als digitale Archivsysteme entwickelt wurden, orientierte sich die Datenstruktur an analogen Findmitteln wie Findbüchern und Zettelkästen.
+    Ein wichtiger Verzeichnungsstandard im Archivwesen wurde 1994 (Revision 2000) eingeführt, die “International Standard Archival Description (General)” - kurz ISAD(G).
+    Grundsätzlich gibt es hier eine mehrstufige Verzeichnung im Provenienzprinzip, um den Entstehungszusammenhang abzubilden.
+
+Bestandsbildner - Kafka
+aufgeschrieben wann in welchem kontext von wem gegeben, von wem empfangen
+Provinienz ist sehr wichtig!
+WEIL: Archive hat idr nur Unikate, während die Bibis Massenprodukte haben.
+Informationsbereiche
+
+Der Standard enthält 26 Verzeichnungselemente in 7 Informationsbereichen:
+    Identifikation
+    Kontext
+    Inhalt und innere Ordnung
+    Zugangs- und Benutzungsbedingungen
+    Sachverwandte Unterlagen
+    Anmerkungen
+    Kontrolle
+
+Von besonderer Bedeutung sind 6 Pflichtfelder:
+    Signatur
+    Titel
+    Provenienz
+    Entstehungszeitraum
+    Umfang
+    Verzeichnungsstufe
+
+Grenzen von ISAD(G)
+    Ein einzelner Datensatz ist unter Umständen nur im Kontext verständlich (z. B. nur “Protokoll” als Titel).
+    Die Tektonik ist eindimensional (keine Mehrfachzuordnung möglich).
+    Der Standard enthält keine Vorgaben zur Digitalisierung oder zur digitalen Langzeitarchivierung.
+
+Normdaten mit ISAD(G)
+    Um Normdateien verzeichnen zu können, wurde später ein ergänzender Standard “International Standard Archival Authority Record for Corporate Bodies, Persons, and Families” - kurz ISAAR(CPF) verabschiedet. Dieser wird in der Praxis wegen dem Zusatzaufwand bei der Erschließung jedoch nur selten verwendet.
+    Aktuell ist ein neuer Standard “Records in Contexts” (RIC) in Entwicklung. Dieser basiert auf Linked-Data-Prinzipien und soll neue und mehrfache Beziehungen zwischen Entitäten ermöglichen.
+Note:
+    In den Archiven der ETH-Bibliothek ist wegen der Bibliothekszugehörigkeit die GND-ID von besonderer Bedeutung.
+    Projektgruppe ENSEMEN arbeitet an einer schweizerischen Ausprägung des neuen Standards Records in Contexts (RiC), mit Beteiligung von Niklaus Stettler (FH Graubünden)
+EAD
+(FOLIE)
+Aktuell: Umstieg von ISAD(G) auf RiC, Wiki data wichtig nimmt gleich strukturiert von Anfang an daten auf. ist das zentrale, wichtige ; dbpadia macht struktur im nachhinein
+Archive vernetzen sich mit Wiki data
+In der Schweiz gibt es eine Vernetzungsinitiative Metagrid und weitere Dienste von histHub, einer Forschungsplattform für die Historischen Wissenschaften
+
+https://dhdhi.hypotheses.org/6107
+
+ArchivesSpace - Open Source archivsoftware
